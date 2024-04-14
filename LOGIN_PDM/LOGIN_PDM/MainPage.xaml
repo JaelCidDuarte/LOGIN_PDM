@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LOGIN_PDM.MainPage"
+             Title="¡Login And Password!"
+            BackgroundImageSource="MANDO" >
+
+    <StackLayout  >
+
+        
+            <Frame Margin="10"
+           BorderColor="SkyBlue"
+           CornerRadius="150"
+           HeightRequest="100"
+           WidthRequest="100"
+           IsClippedToBounds="True"
+           HorizontalOptions="Center"
+           VerticalOptions="Center">
+        <Image Source="EntER.png"
+           BackgroundColor="DimGray"
+             Aspect="AspectFill"
+             Margin="-20"
+             HeightRequest="100"
+             WidthRequest="100" />
+    </Frame>
+
+
+        <Frame Margin="20" Padding="-18" CornerRadius="30" BackgroundColor="DarkMagenta">
+            <Entry Placeholder="Usuario" TextColor="DeepSkyBlue" BackgroundColor="Transparent"  FontSize="25" HorizontalTextAlignment="Center" Margin="20" x:Name="txtUsuario"/>
+        </Frame>
+
+        <Frame Margin="20" Padding="-18" CornerRadius="30" BackgroundColor="DarkMagenta">
+            <Entry Placeholder="Password" IsPassword="True" TextColor="DeepSkyBlue" FontSize="25" HorizontalTextAlignment="Center" Margin="20" x:Name="txtPassword"/>
+        </Frame>
+        <Frame Margin="20" Padding="-18" CornerRadius="30" BackgroundColor="DarkMagenta" >
+            <StackLayout Orientation="Vertical" HeightRequest="120" BackgroundColor="DarkMagenta" Padding="10" Margin="20">
+
+                <StackLayout Spacing="0" BackgroundColor="DarkMagenta" Orientation="Horizontal" HorizontalOptions="Center" Padding="10" >
+
+                    <ImageButton BackgroundColor="DarkMagenta"  Source="Acepto.png" HeightRequest="100" WidthRequest="100" x:Name="btnAcepto" Clicked="btnAcepto_Clicked"/>
+                    <ImageButton BackgroundColor="DarkMagenta"  Source="Prohibido.png" HeightRequest="100" WidthRequest="90" x:Name="btnProhibido"  Clicked="btnProhibido_Clicked" />
+
+                </StackLayout>
+            </StackLayout>
+        </Frame>
+          
+    </StackLayout>
+
+ 
+
+</ContentPage>

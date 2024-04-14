@@ -1,0 +1,17 @@
+C:\Users\PC\source\repos\LOGIN_PDM\LOGIN_PDM\LOGIN_PDM\obj\Debug\netstandard2.0\LOGIN_PDM.csproj.AssemblyReference.cache
+C:\Users\PC\source\repos\LOGIN_PDM\LOGIN_PDM\LOGIN_PDM\obj\Debug\netstandard2.0\LOGIN_PDM.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC\source\repos\LOGIN_PDM\LOGIN_PDM\LOGIN_PDM\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\PC\source\repos\LOGIN_PDM\LOGIN_PDM\LOGIN_PDM\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\PC\source\repos\LOGIN_PDM\LOGIN_PDM\LOGIN_PDM\obj\Debug\netstandard2.0\Principal.xaml.g.cs
+C:\Users\PC\source\repos\LOGIN_PDM\LOGIN_PDM\LOGIN_PDM\obj\Debug\netstandard2.0\Sistema.xaml.g.cs
+C:\Users\PC\source\repos\LOGIN_PDM\LOGIN_PDM\LOGIN_PDM\obj\Debug\netstandard2.0\LOGIN_PDM.AssemblyInfoInputs.cache
+C:\Users\PC\source\repos\LOGIN_PDM\LOGIN_PDM\LOGIN_PDM\obj\Debug\netstandard2.0\LOGIN_PDM.AssemblyInfo.cs
+C:\Users\PC\source\repos\LOGIN_PDM\LOGIN_PDM\LOGIN_PDM\obj\Debug\netstandard2.0\LOGIN_PDM.csproj.CoreCompileInputs.cache
+C:\Users\PC\source\repos\LOGIN_PDM\LOGIN_PDM\LOGIN_PDM\obj\Debug\netstandard2.0\LOGIN_PDM.dll
+C:\Users\PC\source\repos\LOGIN_PDM\LOGIN_PDM\LOGIN_PDM\obj\Debug\netstandard2.0\ref\LOGIN_PDM.dll
+C:\Users\PC\source\repos\LOGIN_PDM\LOGIN_PDM\LOGIN_PDM\obj\Debug\netstandard2.0\LOGIN_PDM.pdb
+C:\Users\PC\source\repos\LOGIN_PDM\LOGIN_PDM\LOGIN_PDM\bin\Debug\netstandard2.0\LOGIN_PDM.deps.json
+C:\Users\PC\source\repos\LOGIN_PDM\LOGIN_PDM\LOGIN_PDM\bin\Debug\netstandard2.0\LOGIN_PDM.dll
+C:\Users\PC\source\repos\LOGIN_PDM\LOGIN_PDM\LOGIN_PDM\bin\Debug\netstandard2.0\ref\LOGIN_PDM.dll
+C:\Users\PC\source\repos\LOGIN_PDM\LOGIN_PDM\LOGIN_PDM\bin\Debug\netstandard2.0\LOGIN_PDM.pdb
+C:\Users\PC\source\repos\LOGIN_PDM\LOGIN_PDM\LOGIN_PDM\obj\Debug\netstandard2.0\XamlC.stamp

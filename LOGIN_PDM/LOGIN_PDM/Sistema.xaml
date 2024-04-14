@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LOGIN_PDM.Sistema"
+           BackgroundImageSource="TRES"
+               >
+
+
+    <ContentPage.Resources>
+
+        <Style TargetType="Frame">
+            <Setter Property="BackgroundColor" Value="White" />
+            <Setter Property="BorderColor" Value="DarkBlue" />
+            <Setter Property="Margin" Value="10" />
+            <Setter Property="CornerRadius" Value="30" />
+        </Style>
+
+        <Style TargetType="Label">
+            <Setter Property="Margin" Value="0, 4" />
+        </Style>
+
+        <Style x:Key="headerLabel" TargetType="Label">
+            <Setter Property="Margin" Value="0, 8" />
+            <Setter Property="FontSize" Value="Large" />
+            <Setter Property="TextColor" Value="#182C61" />
+        </Style>
+
+        <Style TargetType="Image">
+            <Setter Property="FlexLayout.Order" Value="-1" />
+            <Setter Property="FlexLayout.AlignSelf" Value="Center" />
+        </Style>
+
+        <Style TargetType="Button">
+            <Setter Property="Text" Value="🎥VER MAS🎞📽" />
+            <Setter Property="FontSize" Value="Large" />
+            <Setter Property="TextColor" Value="White" />
+            <Setter Property="BackgroundColor" Value="DarkBlue" />
+            <Setter Property="BorderRadius" Value="30"/>
+        </Style>
+
+    </ContentPage.Resources>
+    <StackLayout>
+
+        <Frame BorderColor="DarkOrange" 
+               CornerRadius="50"
+               Margin="5"
+               HasShadow="True"
+               BackgroundColor="#1B1464">
+            <Image Source="MANDO"
+                   WidthRequest="280"
+                   HeightRequest="200"/>
+            <Label Text="🎮🕹Mis Videojuegos Favoritos🧩🎲" FontSize="19" TextColor="White"  HorizontalTextAlignment="Center" />
+        </Frame>
+
+        <ScrollView Orientation="Both">
+
+            <FlexLayout>
+
+
+                <Frame WidthRequest="340"
+                   HeightRequest="600"
+                   >
+
+                    <FlexLayout Direction="Column">
+                        <Label Text="DAYS GONE" HorizontalTextAlignment="Center" FontSize="35"
+                           Style="{StaticResource headerLabel}" />
+                        <Label Text="La trama se desarrolla en un mundo postapocalíptico ambientado en el noroeste del Pacífico de los Estados Unidos, donde una pandemia global ha transformado a gran parte de la población en seres monstruosos conocidos como freakers. Los jugadores asumen el papel de Deacon St. John, un motociclista y cazador de recompensas, mientras lucha por sobrevivir en este peligroso entorno." FontFamily="25"/>
+                        <Label Text="  &#x2022; Desarrolladora: bend STUDIOS" FontFamily="25"/>
+                        <Label Text="  &#x2022; Año de Salida: 2019" FontFamily="25" />
+                        <Label Text="  &#x2022; SAGA: Days Gone" FontFamily="25"/>
+                        <Image Source="GONE"
+                           WidthRequest="280"
+                           HeightRequest="200" />
+                        <Label FlexLayout.Grow="1" />
+                        <Button x:Name="btnLeerMa" Clicked="btnLeerMa_Clicked" />
+                    </FlexLayout>
+                </Frame>
+
+                <Frame WidthRequest="340"
+                   HeightRequest="600"
+                   >
+
+                    <FlexLayout Direction="Column">
+                        <Label Text="Devil May Cry 5" HorizontalTextAlignment="Center" FontSize="35"
+                           Style="{StaticResource headerLabel}" />
+                        <Label Text="Devil May Cry. El juego sigue la historia de Nero, Dante y un nuevo personaje llamado V, quienes se unen para enfrentarse a una misteriosa amenaza demoníaca que amenaza con destruir el mundo. Devil May Cry 5 es un videojuego de acción desarrollado y publicado por Capcom. Es la quinta entrega de la popular serie  " FontFamily="25"/>
+                        <Label Text="  &#x2022; Desarrolladora: CAPCOM" FontFamily="25"/>
+                        <Label Text="  &#x2022; Año de Salida: 2019 " FontFamily="25" />
+                        <Label Text="  &#x2022; SAGA: Devil May Cry " FontFamily="25"/>
+                        <Image Source="DEVILMAYCRY"
+                           WidthRequest="280"
+                           HeightRequest="200" />
+                        <Label FlexLayout.Grow="1" />
+                        <Button x:Name="btnLeerMas" Clicked="btnLeerMas_Clicked" />
+                    </FlexLayout>
+                </Frame>
+
+                <Frame WidthRequest="340"
+                   HeightRequest="600">
+
+                    <FlexLayout Direction="Column">
+                        <Label Text="The Legends of Zelda: Link's Awekening" HorizontalTextAlignment="Center" FontSize="35"
+                           Style="{StaticResource headerLabel}" />
+                        <Label Text="The Legend of Zelda: Link's Awakening es un videojuego de acción y aventuras desarrollado por Nintendo. Fue lanzado originalmente para la consola Game Boy en 1993 y posteriormente recibió un remake para la Nintendo Switch en 2019.
+
+La historia sigue a Link, el héroe principal de la serie, quien naufraga en la misteriosa isla de Koholint después de una tormenta."  FontFamily="25"/>
+                        <Label Text="  &#x2022; Desarrolladora: CAPCOM" FontFamily="25"/>
+                        <Label Text="  &#x2022; Año de salida: 2019"  FontFamily="25" />
+                        <Label Text="  &#x2022; SAGA: The Lengend Of Zelda" FontFamily="25"/>
+                        <Image Source="lin"
+                           WidthRequest="160"
+                           HeightRequest="200" />
+                        <Label FlexLayout.Grow="1" />
+                        <Button x:Name="btnLeerMas1" Clicked="btnLeerMas1_Clicked" />
+                    </FlexLayout>
+                </Frame>
+
+                <Frame WidthRequest="330"
+                   HeightRequest="600">
+                    <FlexLayout Direction="Column">
+                        <Label Text="Far Cry 5" HorizontalTextAlignment="Center" FontSize="35"
+                           Style="{StaticResource headerLabel}" />
+                        <Label Text="Far Cry 5 es un videojuego de acción en primera persona desarrollado por Ubisoft y lanzado en 2018. La historia se desarrolla en la ficticia región de Hope County, Montana, Estados Unidos, que ha sido tomada por un culto religioso extremista llamado La Puerta del Edén, liderado por Joseph Seed y sus hermanos. El jugador asume el papel de un alguacil adjunto que llega a la región para arrestar a Joseph Seed, desencadenando una serie de eventos que llevan a un conflicto armado entre el culto y los habitantes locales." FontFamily="25"/>
+                        <Label Text="  &#x2022; Desarrolla: Ubisoft" FontFamily="25"/>
+                        <Label Text="  &#x2022; Año de Salidsa: 2018" FontFamily="25" />
+                        <Label Text="  &#x2022; SAGA: Far Cry" FontFamily="25"/>
+                        <Image Source="far"
+                           WidthRequest="280"
+                           HeightRequest="200" />
+                        <Label FlexLayout.Grow="1" />
+                        <Button x:Name="btnLeerMas2" Clicked="btnLeerMas2_Clicked" />
+                    </FlexLayout>
+                </Frame>
+
+                <Frame WidthRequest="330"
+                   HeightRequest="600">
+                    <FlexLayout Direction="Column">
+                        <Label Text="DETROIT BECOME HUMAN" HorizontalTextAlignment="Center" FontSize="35"
+                           Style="{StaticResource headerLabel}" />
+                        <Label Text="Detroit: Become Human es un videojuego de aventuras interactivo desarrollado por Quantic Dream y lanzado en 2018. El juego se desarrolla en un futuro distópico en la ciudad de Detroit, donde los androides con apariencia humana son fabricados para servir a los humanos en diversas tareas. Sin embargo, algunos androides comienzan a desarrollar emociones y conciencia propia, lo que lleva a conflictos entre androides y humanos." FontFamily="25"/>
+                        <Label Text="  &#x2022; Desarrolladra: Quantic Dream" FontFamily="25"/>
+                        <Label Text="  &#x2022; Año de Salida: 2018" FontFamily="25" />
+                        <Label Text="  &#x2022; Saga: Become Human" FontFamily="25"/>
+                        <Image Source="detr"
+                             WidthRequest="280"
+                           HeightRequest="200" />
+                        <Label FlexLayout.Grow="1" />
+                        <Button x:Name="btnLeerMas3" Clicked="btnLeerMas3_Clicked" />
+                    </FlexLayout>
+                </Frame>
+
+                <Frame WidthRequest="330"
+                   HeightRequest="610">
+                    <FlexLayout Direction="Column">
+                        <Label Text="Star Wars Jedi: Fllen Oder" HorizontalTextAlignment="Center" FontSize="35"
+                           Style="{StaticResource headerLabel}" />
+                        <Label Text="Star Wars Jedi: Fallen Order es un videojuego de acción y aventuras desarrollado por Respawn Entertainment y publicado por Electronic Arts. Fue lanzado en noviembre de 2019. La historia se sitúa en el universo de Star Wars y sigue a Cal Kestis, un joven padawan Jedi que ha sobrevivido a la Orden 66 y ahora debe ocultar sus habilidades mientras intenta sobrevivir en la galaxia controlada por el Imperio Galáctico." FontFamily="25"/>
+                        <Label Text="  &#x2022; Desarrolladora: Electronics Arts" FontFamily="25"/>
+                        <Label Text="  &#x2022; Año de Salida: 2019" FontFamily="25" />
+                        <Label Text="  &#x2022; SAGA: JEDI" FontFamily="25"/>
+                        <Image Source="JEDI"
+                           WidthRequest="280"
+                           HeightRequest="200" />
+                        <Label FlexLayout.Grow="1" />
+                        <Button x:Name="btnLeerMas4" Clicked="btnLeerMas4_Clicked" />
+                    </FlexLayout>
+                </Frame>
+
+                <Frame WidthRequest="330"
+                   HeightRequest="610">
+                    <FlexLayout Direction="Column">
+                        <Label Text="One Piece: World Seeker" HorizontalTextAlignment="Center" FontSize="35"
+                           Style="{StaticResource headerLabel}" />
+                        <Label Text="One Piece: World Seeker es un videojuego de acción y aventuras basado en el popular manga y anime One Piece, creado por Eiichiro Oda. El juego fue desarrollado por Ganbarion y publicado por Bandai Namco Entertainment. Fue lanzado en marzo de 2019 para varias plataformas, incluyendo PlayStation 4, Xbox One y Microsoft Windows." FontFamily="25"/>
+                        <Label Text="  &#x2022; Desarrolladora: Ganbarion y publicado por Bandai Namco Entertainment." FontFamily="25"/>
+                        <Label Text="  &#x2022; Año de Salida: 2019" FontFamily="25" />
+                        <Label Text="  &#x2022; SAGA: One Piece " FontFamily="25"/>
+                        <Image Source="LUFFY"
+                           WidthRequest="280"
+                           HeightRequest="200" />
+                        <Label FlexLayout.Grow="1" />
+                        <Button x:Name="btnLeerMas45" Clicked="btnLeerMas45_Clicked" />
+                    </FlexLayout>
+                </Frame>
+
+            </FlexLayout>
+        </ScrollView>
+
+    </StackLayout>
+
+
+</ContentPage>

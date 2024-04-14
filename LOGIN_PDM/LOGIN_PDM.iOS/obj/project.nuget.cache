@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "rHN48w++HL08PM4ON7udHjxI3suP9dY0IFlULoW8kYvlUp7kPnR5qVo1pmk+XW0sUmP38sP4Li98XCU1/6EEuA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\PC\\source\\repos\\LOGIN_PDM\\LOGIN_PDM\\LOGIN_PDM.iOS\\LOGIN_PDM.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\PC\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.6.1\\xamarin.essentials.1.6.1.nupkg.sha512",
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\5.0.0.2012\\xamarin.forms.5.0.0.2012.nupkg.sha512"
+  ],
+  "logs": []
+}
